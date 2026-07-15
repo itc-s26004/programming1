@@ -1,0 +1,3 @@
+def house_for_rent(bedrooms, walk_min,house_type,rent_yen):
+    return {'bedrooms':bedrooms, 'walk_min': walk_min,'house_type': house_type,'rent_yen':rent_yen}
+print(house_for_rent(2,15,'アパート',50))
